@@ -27,9 +27,6 @@ git clone https://github.com/Robin-Kumar-rk/LecturesAdminPortal.git
 
 2. Open `index.html` in your web browser
 
-3. Login with the following credentials:
-   - Username: Robin
-   - Password: 8585
 
 ## Project Structure
 
