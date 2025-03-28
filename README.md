@@ -4,7 +4,7 @@ A web-based admin portal for managing lecture timetables using Firebase as the b
 
 ## Features
 
-- Secure admin login system
+- Simple admin login system
 - JSON file upload for timetable data
 - Real-time preview of timetable data
 - Firebase integration for data storage
@@ -25,9 +25,14 @@ A web-based admin portal for managing lecture timetables using Firebase as the b
 git clone https://github.com/Robin-Kumar-rk/LecturesAdminPortal.git
 ```
 
-2. Open `index.html` in your web browser
+2. Set up Firebase:
+   - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
+   - Enable Firestore Database
+   - Update the Firebase configuration in `js/firebase-config.js`
 
-3. Login with the following credentials:
+3. Open `index.html` in your web browser
+
+4. Login with the following credentials:
    - Username: Robin
    - Password: 8585
 
@@ -47,10 +52,14 @@ LecturesAdminPortal/
 
 ## Firebase Configuration
 
-The project uses Firebase for data storage. Make sure to:
-1. Create a Firebase project
-2. Enable Firestore database
-3. Update the Firebase configuration in `js/firebase-config.js`
+1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+2. Enable Firestore Database
+3. Get your Firebase configuration from Project Settings
+4. Update the configuration in `js/firebase-config.js`
+
+## Security Note
+
+This is a private repository with basic authentication. The portal is intended for internal use only.
 
 ## License
 
